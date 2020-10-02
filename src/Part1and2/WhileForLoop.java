@@ -1,0 +1,24 @@
+package Part1and2;
+
+public class WhileForLoop {
+
+    public static void main(String[] args) {
+        //1. while loop
+        //disadvantage of while loop: it will  generate infinite loop if you don't give incremental or decremental part
+
+        int i=1;    //initialization
+        while(i<=10){ //condition
+            System.out.println(i);
+            i=i+1; //incremental/decremental
+
+        }
+        System.out.println("***********");
+
+        //2.for loop
+        // j++ means j=j+1
+
+        for(int j=1; j<=10; j++) {
+            System.out.println(j);
+        }
+    }
+}
